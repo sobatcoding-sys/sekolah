@@ -11,12 +11,9 @@ if (isset($_POST['simpan'])) {
   $umur=$_POST['umur'];
   $jk=$_POST['jk'];
 
-  $s = mysql_query("insert into datasiswa (id, nis, nama, 
-    tanggal, alamat, kelas, umur, jenis_kelamin) values 
-    ('','$nis','$nama','$tgl','$alamat','$kelas','$umur','$jk')");
+  $s = mysql_query("insert into datasiswa (id, nis, nama, tanggal, alamat, kelas, umur, jenis_kelamin) values ('','$nis','$nama','$tgl','$alamat','$kelas','$umur','$jk')");
 
-  $s .= mysql_query("insert into siswa (nis, nama) 
-    values ('$nis','$nama')");
+  $s .= mysql_query("insert into siswa (nis, nama) values ('$nis','$nama')");
 
   if ($s) {
         echo "

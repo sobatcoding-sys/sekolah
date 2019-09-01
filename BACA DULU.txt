@@ -1,0 +1,11 @@
+                       SOBAT CODING
+=========================================================
+
+1. Masuk pada http://localhost/phpmyadmin/ di web browser
+2. Buat database dengan nama "sekolah"
+3. Import sekolah.sql
+4. Enjoy..
+
+==========================================================
+                       SOBAT CODING
+                           2019
